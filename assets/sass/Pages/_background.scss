@@ -1,0 +1,31 @@
+.background{
+	background-color:black;
+
+	.parent{
+		position:relative;
+		canvas{
+		width:100%;
+		}
+		.texto{
+			position:absolute;
+			left:50px;
+			top:0px;
+			#test{
+				color: white;
+			    text-align: center;
+			    position: relative;
+			    left:0;
+			    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+			    font-size: 6em;
+			}
+			#holi{
+				    color: white;
+				    text-align: center;
+				    position: relative;
+				    left: 0;
+				    font-family:"Didact Gothic";
+				    font-size: 3em;
+			}
+		}
+	}
+}
